@@ -4,7 +4,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-DEVICE_PATH := device/itel/A666LN
+DEVICE_PATH := device/itel/S681LN
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
@@ -14,7 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from itel-A666LN device
+# Inherit from itel-S681LN device
 $(call inherit-product, device/itel/S681LNLN/device.mk)
 
 
@@ -31,7 +31,3 @@ PRODUCT_RELEASE_NAME := Itel Itel S681LN
 
 
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="A666LN-user 13 TP1A.220624.014 114 release-keys"
-
-BUILD_FINGERPRINT := Itel/A666LN-OP/itel-A666LN:13/TP1A.220624.014/231129V157:user/release-keys
