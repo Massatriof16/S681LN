@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/itel/S618LN
+DEVICE_PATH := device/itel/S681LN
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -32,7 +32,7 @@ BOARD_RAMDISK_USE_LZ4 := true
 
 #TARGET_USES_UEFI := true
 # Assert
-TARGET_OTA_ASSERT_DEVICE := itel-S618LN
+TARGET_OTA_ASSERT_DEVICE := itel-S681LN
 
 
 # Architecture
