@@ -224,11 +224,6 @@ alias of:N*T*Csprd,ump518C* sprd_sc27xx_spi
 alias of:N*T*Csprd,wdt-r2p0-fiq sprd_wdt_fiq
 alias of:N*T*Csprd,wdt-r2p0-fiqC* sprd_wdt_fiq
 alias of:N*T*Cfocaltech,fts focaltech_ft8756_spi_ts
-alias of:N*T*Cfocaltech,ftsC* focaltech_ft8756_spi_ts
-alias of:N*T*Cfocaltech,fts focaltech_ft3681
-alias of:N*T*Cfocaltech,ftsC* focaltech_ft3681
-alias of:N*T*Cadaptive-touchscreen focaltech_ft3681
-alias of:N*T*Cadaptive-touchscreenC* focaltech_ft3681
 alias of:N*T*Csprd,sc9860-spi spi_sprd
 alias of:N*T*Csprd,sc9860-spiC* spi_sprd
 alias codec:dummy-playback snd_soc_sprd_dummy_codec
