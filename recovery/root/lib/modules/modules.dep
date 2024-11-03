@@ -76,7 +76,6 @@
 /lib/modules/sprd_wdt_fiq.ko:
 /lib/modules/twofish_common.ko:
 /lib/modules/focaltech_ft8756_spi_ts.ko: /lib/modules/trusty-tui.ko
-/vendor/lib/modules/focaltech_ft3681.ko: /vendor/lib/modules/adaptive-ts.ko /vendor/lib/modules/sprd-drm.ko /vendor/lib/modules/modules_interface.ko /vendor/lib/modules/tran_hwinfo.ko /vendor/lib/modules/sprd-gsp.ko /vendor/lib/modules/apsys-dvfs.ko /vendor/lib/modules/sprd_soc_id.ko /vendor/lib/modules/unisoc-iommu.ko
 /lib/modules/spi-sprd.ko:
 /lib/modules/mcdt_hw_r2p0.ko:
 /lib/modules/pinctrl-sprd.ko:
